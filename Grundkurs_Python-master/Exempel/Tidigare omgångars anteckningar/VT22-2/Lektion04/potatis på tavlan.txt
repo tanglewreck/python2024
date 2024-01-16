@@ -1,0 +1,49 @@
+Skala tre potatisar med pseudokod
+
+1. Ta en potatis
+2. Skala potatisen
+3. Lägg potatisen i kastrullen
+4. Ta en potatis
+5. Skala potatisen
+6. Lägg potatisen i kastrullen
+7. Ta en potatis.
+8. Skala potatisen.
+9. Lägg potatisen i kastrullen.
+
+Skala potatis med en loop:
+1. Ta en potatis
+2. Skala potatisen
+3. Lägg potatisen i kastrullen
+4. Hoppa till steg 1
+
+Skala potatis tills kastrullen är full:
+1. Kolla om kastrullen är full
+2. Om kastrullen var full i steg 1, hoppa till steg 7
+3. Ta en potatis
+4. Skala potatisen
+5. Lägg potatisen i kastrullen 
+6. Hoppa till steg 1
+7. Sluta skala potatis
+
+Pseudokod för while:
+Upprepa:
+	Om kastrullen är full med potatis:
+		Avbryt potatisskalningen
+	Annars:
+		Ta en potatis
+		Skala potatisen
+		Lägg i kastrullen
+		
+Upprepa så länge kastrullen inte är full med potatis:
+	Ta en potatis
+	Skala potatisen
+	Lägg i kastrullen
+	
+Psueudokod för For-loop:
+För varje potatis i säcken:
+	Skala potatisen
+	Lägg potatisen i kastrullen
+	
+För varje potatis i säcken, kalla den x:
+	Skala potatisen x
+	Lägg potatisen x i kastrullen

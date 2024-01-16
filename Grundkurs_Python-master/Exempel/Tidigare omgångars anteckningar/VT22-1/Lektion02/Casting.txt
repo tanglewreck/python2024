@@ -1,0 +1,7 @@
+Typecasting eller Casting
+
+int(my_second_variable)
+Ge mig värdet av my_second_variable som ett heltal
+
+str(my_third_variable)
+Ge mig värdet av my_third_variable som text

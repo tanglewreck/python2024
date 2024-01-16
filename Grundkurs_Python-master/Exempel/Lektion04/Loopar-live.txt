@@ -1,0 +1,35 @@
+Flödeskontroll del 2, Loopar:
+
+Nomenklatur, vad man menar med specifika termer i denna kontext.
+	Element - En sak i en samling. T.ex. "Första elementet i en lista"
+	
+	Iteringvariabel är den variabel man kollar på vid varje varv i loopen. Kan också kallas upprepningsvariabel.
+	
+	Iterera = Upprepa
+
+
+I Python så finns det while-loopar och for-loopar.
+
+
+while-loopar:
+
+Så länge [något] så gör detta:
+	Instruktioner
+
+While [something] do this:
+	Instructions
+
+while [något]:
+	Instruktioner
+
+
+for-loopar:
+
+För varje element i [samling] så gör detta:
+	Instruktioner
+
+For each thing in [collection] do this:
+	Instructions
+
+for [itereringsvariabel] in [samling]:
+	Instruktioner

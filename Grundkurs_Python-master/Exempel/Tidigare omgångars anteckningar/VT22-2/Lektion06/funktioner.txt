@@ -1,0 +1,17 @@
+Funktioner = Procedurer = Subrutiner
+
+Funktion = Instruktion
+
+Metod = Funktion från ett specifikt objekt
+
+Argument
+Positional arguments
+Keyword arguments = Nyckelordsargument
+
+print kollar vad som returneras av
+funktionen f
+f körs med argumentet x
+
+Designprincip i Python:
+DRY
+Don't Repeat Yourself

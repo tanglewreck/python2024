@@ -1,0 +1,6 @@
+/Deltagares/
+/venv/
+/.idea/
+
+__pycache__/
+*.bak

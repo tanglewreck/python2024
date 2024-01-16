@@ -1,0 +1,12 @@
+Element = En sak i en samling av saker
+
+Slice(slice:ing)
+Att hämta en viss del av en mängd
+[FRÅN:TILL:HOPP]
+
+.pop()
+FILO
+First In Last Out
+
+FIFO
+First In First Out

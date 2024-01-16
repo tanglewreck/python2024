@@ -1,0 +1,18 @@
+Variabler är saker vi sparar.
+Datatyper är hur vi sparar.
+
+Spara värdet 23 i en variabel som heter min_andra_variabel.
+Spara texten "23" i en variabel som heter min_variabel.
+Skapa en lista som heter fruit som innehåller dessa saker: 
+
+str = String = Text
+int = Integer = Heltal
+float = Float = Flyttal
+
+lst = List = Lista
+dict = Dictionary = 
+tuple = Typ en oföränderlig lst
+set = Kan bara innehålla en av varje sak. T.ex. Tillåts inte två ettor.
+
+Immutable
+Variabler är behållare.

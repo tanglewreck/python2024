@@ -1,0 +1,22 @@
+Webutveckling
+	Django
+	Flask
+Dataanalys
+
+Maskininlärning
+AI
+
+Scripting
+
+Google
+Spotify
+Netflix
+Facebook
+Dropbox
+Reddit
+
+
+
+Syntax
+
+IDE = integrerad utvecklingsmiljö = texteditor

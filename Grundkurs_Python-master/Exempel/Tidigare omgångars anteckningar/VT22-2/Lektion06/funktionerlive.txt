@@ -1,0 +1,16 @@
+Funktioner = Procedurer = Subrutiner
+Instruktion till datorn.
+
+Funktion = Instruktion
+
+
+Argument = Det man vill att datorn ska utföra funktionen på eller med.
+Positional arguments = Positionella argument
+Keyword arguments = Nyckelordsargument
+
+
+Designprincip i Python:
+DRY
+Don't Repeat Yourself
+
+f(x) = x * 2

@@ -1,0 +1,2 @@
+Den här filen finns bara för att hålla ordningen på övningarna korrekt.
+Övningen kan hittas i filen "exercise.py".

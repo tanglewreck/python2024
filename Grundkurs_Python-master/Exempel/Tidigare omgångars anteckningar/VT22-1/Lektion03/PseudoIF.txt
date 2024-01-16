@@ -1,0 +1,19 @@
+Gå till affären och köp ett paket ägg. Om de har limpor, köp två.
+
+Vad man menar med detta:
+
+	Inköpslista:
+	1 paket ägg
+	2 limpor
+	
+Hur man skulle kunna tolka det:
+
+	Köp två paket ägg om affären säljer limpor.
+	Annars, köp ett paket ägg.
+	
+
+if affären_har_limpor == True:
+	mängd_äggkartonger_att_köpa = 2	
+else:	
+	mängd_äggkartonger_att_köpa = 1
+	

@@ -1,0 +1,12 @@
+# Henriks förslag på saker att öva på:
+
+# Här är mina förslag till övningar för lektion 8.
+
+# Utöka exemplet cafe3.py med följande förbättringar:
+# * Lägg till fler produkter.
+# * Visa före beställning vilka produkter som finns att beställa.
+# (Hint: Att loopa över en dictionary ger nycklarna, vilka sedan kan slås upp.)
+# * Visa något lämpligt meddelande vid beställning av produkt som inte finns. (Hint: Använd in-operationen.)
+
+# Ni kan också pröva att göra samma sak i cafe1.py och cafe2.py för att jämföra
+# olika sätt att uppnå resultatet.

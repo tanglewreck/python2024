@@ -1,0 +1,11 @@
+Skapa en lista som heter my_list
+Lägg till strängen "Hej" i listan
+xxxSkapa en lista som heter hälsningslistaxx
+När vi säger hälsningslista så menar vi det objekt som my_list pekar på
+
+
+
+
+
+Objekt kan ha både lagrad data och instruktioner
+Dessa kallas för parametrar

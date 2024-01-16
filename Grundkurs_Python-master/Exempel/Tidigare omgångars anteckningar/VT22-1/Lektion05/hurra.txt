@@ -1,0 +1,75 @@
+Fyrfaldigt leve - illustration av programflöde
+----------------------------------------------
+
+Nedan visas ett och samma program i fyra olika versioner:
+receptet som datorn ska följa (den abstrakta algoritmen),
+en direkt översättning till BASIC och två olika versioner
+i Python som illustrerar s.k. strukturerad programmering.
+
+
+=== Receptet (algoritmen) ===
+
+1. Välkomna användaren.
+2. Fråga efter användarens namn.
+3. Om användaren svarade "hemligt", hoppa till steg 10.
+4. Hälsa användaren med det angivna namnet.
+5. Registrera att vi hurrat 0 gånger.
+6. Hurra.
+7. Registrera att vi hurrat en gång mer än tidigare.
+8. Om vi har hurrat 4 gånger, hoppa till steg 11.
+9. Hoppa till steg 6.
+10. Hälsa användaren med en standardfras.
+11. Avsluta programmet.
+
+
+=== Implementation i BASIC ===
+
+10 PRINT "Välkommen!"
+20 INPUT "Vad heter du" namn$
+30 IF namn$ = "hemligt" THEN GOTO 100
+40 PRINT "Ett fyrfaldigt leve för " + namn$ + "!"
+50 LET hurrarop = 0
+60 PRINT "Hurra!"
+70 LET hurrarop = hurrarop + 1
+80 IF hurrarop = 4 THEN GOTO 110
+90 GOTO 60
+100 PRINT "Din integritet är viktig för oss. Ät de här kakorna."
+110 QUIT
+
+
+=== Implementation i Python ===
+
+print("Välkommen!")
+namn = input("Vad heter du? ")
+
+if namn == "hemligt":
+    print("Din integritet är viktig för oss. Ät de här kakorna.")
+else:
+    print(f"Ett fyrfaldigt leve för {namn}!")
+    for i in range(4):
+        print("Hurra!")
+
+
+=== Implementation i Python med funktioner ===
+
+def välkomna():
+    print("Välkommen!")
+    namn = input("Vad heter du? ")
+    return namn
+
+def fira(namn):
+    print(f"Ett fyrfaldigt leve för {namn}!")
+    for i in range(4):
+        print("Hurra!")
+
+def avfärda():
+    print("Din integritet är viktig för oss. Ät de här kakorna.")
+
+def starta():
+    namn = välkomna()
+    if namn == "hemligt":
+        avfärda()
+    else:
+        fira(namn)
+
+starta()

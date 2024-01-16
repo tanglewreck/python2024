@@ -1,0 +1,32 @@
+Nomenklatur:
+
+Objektorienterad Programmering
+	En typ av programmering där man använder sig av objekt.
+	
+Objekt
+	En grupp data och instruktionerna för datorn om hur man behandlar sagda data.
+	En Instans av en klass.
+	
+Instans
+	En specifik kopia av ett koncept.
+	T.ex. en specifik bok istället för konceptet böcker.
+	Alla röda dörrar är dörrar men alla dörrar är inte röda.
+	
+Klass
+	En ritning för ett objekt
+	
+Metoder
+	Funktioner kopplade till ett specifikt objekt.
+	Har alltid argumentet self.
+	
+Attribut
+	Egenskaper hos ett objekt. Oftast data och metoder.
+	
+Konstruktor
+	__init__ metoden som körs när man skapar ett objekt.
+
+	
+Klass = Bok
+Klass som ärver från Bok = Pocketbok
+Klass som ärver från Pocketbok = Sagan om Ringen
+Objekt skapat från klassen Sagan om Ringen = Mitt exemplar av Sagan om Ringen

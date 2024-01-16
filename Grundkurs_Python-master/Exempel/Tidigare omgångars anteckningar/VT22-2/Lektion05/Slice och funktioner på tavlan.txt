@@ -1,0 +1,26 @@
+Element = en sak i en annan sak
+
+Slice:ing
+Att ta en del av en mängd mellan två punkter.
+
+my_list = [1, 2, 3, 4, 5, 6, 7]
+my_list[2]
+my_list[2:4]
+
+
+
+Funktioner och metoder
+
+Exempelfunktion: print("Hej")
+En funktion är en instruktion till datorn.
+Det som står innanför parenteserna kallas för parametrar.
+
+Exempelmetod:
+my_list.append()
+append() # Detta är fel, metoder måste kallas från ett objekt.
+
+När man skapar listor, dicts, sets och tuples:
+my_list = [1, 2, 3]
+my_dict = {1:"ett", 2:"två"}
+my_set = {1, 2, 3, 4}
+my_tuple = (1, 2, 3, 4)
