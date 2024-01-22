@@ -4,7 +4,7 @@
 # Notera: Du ska alltså INTE ändra på raderna med "print" för att få ut rätt
 # resultat. Raderna med text är till för att visa om du har gjort rätt.
 
-my_list = 2, 3, 4
+my_list = [ 2, 3, 4 ]
 my_second_list = [5, 6, 7, 8]
 new_list = my_list + my_second_list
 
