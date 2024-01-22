@@ -6,5 +6,5 @@
 # Förklara i en kommentar på nästa rad varför dubbletten togs bort:
 #
 
-my_list = {1, 2, 1}
+my_list = [1, 2, 1]
 print(my_list)

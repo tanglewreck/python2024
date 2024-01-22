@@ -15,6 +15,7 @@ my_new_list = []
 # Ovanstående kod ska inte ändras på.
 
 
-for each thing in my_int_list:
-    my_new_list.append()
+for thing in my_int_list:
+    my_new_list.append(thing)
+
 print(my_new_list)

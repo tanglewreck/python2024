@@ -15,8 +15,8 @@ my_new_list = []
 for element in my_mixed_list:
     # Nedanstående rad skulle kunna kunna skrivas "if type(element) == int or type(element) == float:"
     if type(element) in {int, float}:
-    my_new_list.a
+        my_new_list.append(element + 5)
     else:
-    my_new_list.a
+        my_new_list.append(element)
 
 print(my_new_list)

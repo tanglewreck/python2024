@@ -10,6 +10,13 @@ def print_and_increment(my_inner_int):
 
 
 amount = int(input("Hur många gånger ska jag köra? "))
-my_int = 0
-while my_int < amount:
-    print_and_increment(my_int)
+my_int = 1
+try:
+	while my_int <= amount:
+		print_and_increment(my_int)
+		try:
+			my_int += 1
+		except:
+			print("Mata in ett heltal")
+except:
+	print("Mata in ett naturligt tal")

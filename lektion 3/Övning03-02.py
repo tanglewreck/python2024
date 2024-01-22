@@ -5,9 +5,12 @@
 # helt är inte rätt svar.
 
 we_want_to_mess_with_greeting = False
+we_want_to_mess_with_greeting = True
+
 greeting = "Hej och tack! Jag blev inte borttagen!"
 
-greeting = "Ånej! Jag blev ändrad!"
+if (we_want_to_mess_with_greeting):
+    greeting = "Ånej! Jag blev ändrad!"
 
 print(greeting)
 

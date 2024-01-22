@@ -9,4 +9,11 @@ my_long_list = ["Det", "här", "är", "en", "lista", "som", "innehåller", "väl
 
 print("Resultatet av nästa print() ska vara: ['som', 'innehåller', 'väldigt', 'många',"
       " 'element', 'för', 'att', 'visa', 'att', 'man', 'kan']")
-print()
+myList = []
+for k in range(5,16):
+      myList.append(my_long_list[k])
+else:
+      print(myList)
+
+# print(my_long_list[5:16])
+

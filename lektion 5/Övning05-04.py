@@ -27,5 +27,6 @@ my_second_list = ["Det här är den yttre listan!", ["Efter den här strängen s
                   "Nästlade listor kan vara krångliga ibland."]
 # Ovanstående rader ska INTE ändras.
 
+my_second_list.insert(-1, my_first_list)
 
 print(my_second_list)

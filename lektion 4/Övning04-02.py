@@ -15,11 +15,19 @@ my_list = [1, 2, 3, 4, 5, 6, 7, "Åtta", "Nio", 10]
 
 # Svara i en kommentar på nästa rad vad för typ av loop passar bäst här:
 
+for item in my_list:
+    print(item)
 
-loop my_list:
-    print()
+print()
+for item in my_list:
+    print(item, end=' ')
+print()
+# loop my_list:
+#    print()
 
 
 
 # Extrafråga: Hur skulle vi kunna göra så att programmet skriver ut innehållet
 # i listan på en rad istället för på flera stycken? Svara i en kommentar:
+#
+# print(item, sep=' ')

@@ -21,5 +21,7 @@ my_first_list = [100, [200, [300]]]
 my_second_list = ["x", ["efter här"], "z"]
 # Ovanstående rader ska INTE ändras.
 
+# my_second_list.append(my_first_list)
+my_second_list.insert(-1, my_first_list)
 
 print(my_second_list)
