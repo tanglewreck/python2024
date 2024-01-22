@@ -17,14 +17,37 @@
 
 
 def add(int1, int2):
-    print(int1 + int2)
+    print(str(int1), "+", str(int2), "=", int1 + int2)
+
+def subtract(int1, int2):
+    print(str(int1), "-", str(int2), "=", int1 - int2)
 
 
 def multiply(int1, int2):
-    print(int1 * int2)
+    print(str(int1), "x", str(int2), "=", int1 * int2)
 
+def divide(float1, float2):
+    if float2 == 0:
+        print("cannot divide by zero")
+        return 0
+    try:
+        print(str(float1), "/", str(float2), "=", float1 / float2)
+    except:
+        print("divide by zero")
 
-add(3, 2)
-multiply(3, 2)
+def main():
+    while True:
+        try:
+            number1 = int(input("n1? "))
+        except:
+            print("please input a number")
+        try:
+            number2 = int(input("n2? "))
+        except:
+            print("please input a number")
+        add(number1, number2)
+        subtract(number1, number2)
+        multiply(number1, number2)
+        divide(number1, number2)
 
-print("foo")
+main()
