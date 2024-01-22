@@ -23,8 +23,47 @@
 
 
 def evaluate_temperature(degrees_celsius):
-    return "av okänd badvänlighet"
+    if degrees_celsius < 16:
+        return "för kallt"
+    elif degrees_celsius >=16 and degrees_celsius < 20:
+        return "knappt badbart"
+    elif degrees_celsius >= 20 and degrees_celsius < 22:
+        return "badbart"
+    elif degrees_celsius >= 22 and degrees_celsius < 30:
+        return "nice!"
+    elif degrees_celsius >= 30 and degrees_celsius < 35:
+        return "super nice!"
+    elif degrees_celsius >= 35 and degrees_celsius < 40:
+        return "svettigt"
+    elif degrees_celsius >= 40:
+        return "för hett"
+    else:
+        return "av okänd badvänlighet"
 
+
+# Allt efter denna rad ska vara oförändrat. Kommentarerna på följande rader
+# finns enbart där för att förklara vad som händer.
+
+
+def main():
+    # Följande tre rader slumpar fram fem temperaturer så att vi testar om
+    # funktionen klarar av både förutbestämda och slumpade temperaturer.
+    from random import choices
+    random_temp = choices(range(1, 60), k=5)
+    temperatures = [0, 25, 10, 50] + random_temp
+
+    for temperature in temperatures:
+        # Här anropar vi vår funktion evaluate_temperature och får
+        # tillbaka en bedömning.
+        assessment = evaluate_temperature(temperature)
+
+        print("Vid", temperature, "grader anses badvattnet vara", assessment)
+
+
+# Här anropar vi funktionen main. Namnet är konventionellt för den
+# funktion där programmet tar sin början, men man kan egentligen kalla
+# den vad man vill.
+main()
 
 
 
