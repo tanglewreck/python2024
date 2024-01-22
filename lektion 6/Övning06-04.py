@@ -26,3 +26,5 @@ def multiply(int1, int2):
 
 add(3, 2)
 multiply(3, 2)
+
+print("foo")
