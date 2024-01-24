@@ -5,4 +5,4 @@ import random
 
 my_list = ["Funktionen", "ska", "välja", "en", "av", "dessa", "strängar", "slumpmässigt"]
 
-print(choice(my_list))
+print("random val från my_list: " + random.choice(my_list))
