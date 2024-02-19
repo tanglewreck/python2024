@@ -2,10 +2,10 @@
 
 # Denna övning finns i två varianter:
 
-# Övning06-03.py har namnen på funktioner och variabler på engelska vilket är
+# uppgift06-03.py har namnen på funktioner och variabler på engelska vilket är
 # hur man bör skriva men kanske rör till det för vissa.
 
-# Övning06-03-sv.py har namnen på funktioner och variabler på svenska vilket
+# uppgift06-03-sv.py har namnen på funktioner och variabler på svenska vilket
 # orsaka problem på vissa datorer och bör undvikas.
 
 # NI BEHÖVER BARA GÖRA EN AV DESSA. De är identiska utöver språket på namnen i

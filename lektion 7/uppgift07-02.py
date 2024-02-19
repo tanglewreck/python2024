@@ -2,14 +2,12 @@
 # och lägg till anrop på den nya modulens funktioner i den här
 # modulens main-funktion.
 
-# from exempelpaket import animals
-from dogs import bark, barkloudly
-from cats import mjau, mjauloudly
+from exempelpaket import *
+
 
 def main():
     bark()
-    barkloudly()
-    mjau()
-    mjauloudly()
+    bark_loudly()
+
 
 main()

@@ -18,7 +18,7 @@
 # utöver a-z och 0-9.
 
 # Här ska du skriva namnet på din andra fil och eventuellt något mer.
-import
+from foo import *
 
 # Så här kan det se ut när du kallar på funktionen.
 my_example_function("Bob")
