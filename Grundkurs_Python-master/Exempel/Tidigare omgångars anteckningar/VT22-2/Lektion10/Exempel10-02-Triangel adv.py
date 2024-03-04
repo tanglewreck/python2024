@@ -1,5 +1,0 @@
-print("/|".rjust(6))
-print("/ |".rjust(6))
-print("/  |".rjust(6))
-print("/   |".rjust(6))
-print("/____|".rjust(6))
