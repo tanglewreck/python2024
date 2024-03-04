@@ -1,0 +1,3 @@
+I korthet så har alla moduler en dold variabel som heter `__name__` vad den har för värde varierar beroende på om man startade sitt program från en viss modul eller om det är en modul som har importerats. När man importerar så sätts namnet(`__name__`) för den importerade modulen till filnamnet på den fil som den kommer ifrån.
+Om man startar programmet från en fil så får modulen från den filen automatiskt sitt namn (`__name__`) satt till `__main__`.
+Den funktion som man brukar döpa till `main()` skulle lika gärna kunna heta `banan()`, det är bara ett godtyckligt namn som man kommit överens om att använda.

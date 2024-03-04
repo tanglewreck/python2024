@@ -1,0 +1,30 @@
+List  -> När man vill lagra data som ska kunna ändras och man bryr sig om ordningen.
+Ett kösystem skulle kunna vara en lista.
+Ordered Mutable Collection
+
+Tuple -> När man vill ha en mängd data som man vet inte kommer ändras, man bryr sig om ordningen och vill kunna ha dubletter.
+Koordinater passar bra som Tuple.
+Ordered Immutable Collection
+
+Set -> När man vill lätt kunna jämföra uppsättningar med data och när man vill förhindra dubletter.
+Snabbt att konvertera till set och tillbaka för att ta bort dubletter.
+Supersnabbt att kolla om något finns i ett set.
+Unordered Mutable Collection of Immutables
+
+Dicts -> När man har stora mängder data som man vill kunna referera till snabbt.
+Mutable Mappingtype Collection
+
+
+
+Behöver du kunna lagra dubletter?
+	Isf, List eller Tuple
+		Behöver du kunna ändra på data?
+			Om ja: List
+			annars: Tuple
+		Behöver du något som är oföränderligt?
+			Tuple
+
+Behöver du kunna ändra på det som ska lagras?
+	Lägg det som värden i en Dict
+
+Annars Set

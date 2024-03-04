@@ -1,0 +1,28 @@
+Java:
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
+}
+
+C:
+
+#include <stdio.h>
+int main() {
+   printf("Hello, World!");
+   return 0;
+}
+
+C++:
+
+#include <iostream>
+
+int main() {
+    std::cout << "Hello World!";
+    return 0;
+}
+
+Python:
+
+print("Hello World")

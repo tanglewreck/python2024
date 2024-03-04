@@ -1,0 +1,79 @@
+Av: Henrik Tunedal
+Skala potatis i pseudokod - illustration av styrstrukturer
+----------------------------------------------------------
+
+
+=== Program 1: Skala tre potatisar ===
+
+1. Ta en potatis.
+2. Skala potatisen.
+3. Lägg potatisen i kastrullen.
+4. Ta en potatis.
+5. Skala potatisen.
+6. Lägg potatisen i kastrullen.
+7. Ta en potatis.
+8. Skala potatisen.
+9. Lägg potatisen i kastrullen.
+
+
+=== Program 2: Skala potatisar i evighet ===
+
+1. Ta en potatis.
+2. Skala potatisen.
+3. Lägg potatisen i kastrullen.
+4. Hoppa till steg 1.
+
+
+=== Program 3: Skala potatis tills kastrullen är full ===
+
+1. Kolla om kastrullen är full med potatis.
+2. Om kastrullen var full med potatis, hoppa till steg 7.
+3. Ta en potatis.
+4. Skala potatisen.
+5. Lägg potatisen i kastrullen.
+6. Hoppa till steg 1.
+7. Vila.
+
+
+=== Program 4: Strukturerad version av program 3 ===
+
+Upprepa:
+	Om kastrullen är full med potatis:
+	   Avbryt och sluta upprepa.
+	Annars:
+	   Ta en potatis.
+	   Skala potatisen.
+	   Lägg potatisen i kastrullen.
+
+
+=== Program 5: Alternativ form av program 4 ===
+
+Upprepa medan kastrullen inte är full med potatis:
+    Ta en potatis.
+    Skala potatisen.
+    Lägg potatisen i kastrullen.
+
+
+=== Program 6: Skala alla potatisar vi har ===
+
+Upprepa:
+    Försök ta en potatis.
+    Om vi inte fick tag på en potatis:
+        Avbryt och sluta upprepa.
+    Annars:
+       Skala potatisen.
+       Lägg potatisen i kastrullen.
+
+
+=== Program 7: Alternativ form av program 6 ===
+
+För varje potatis:
+    Skala potatisen.
+    Lägg potatisen i kastrullen.
+
+
+=== Program 8: Alternativ form av program 6 med namngiven potatis ===
+
+För varje potatis, kalla den x:
+    Skala potatisen x.
+    Lägg potatisen x i kastrullen.

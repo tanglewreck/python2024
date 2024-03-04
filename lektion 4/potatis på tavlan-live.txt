@@ -1,0 +1,87 @@
+Orginal: Henrik Tunedal
+Skala potatis i pseudokod - illustration av styrstrukturer
+----------------------------------------------------------
+
+Skala tre potatisar med pseudokod:
+
+	1. Ta en potatis
+	2. Skala potatisen
+	3. Lägg potatisen i kastrullen
+	4. Ta en potatis
+	5. Skala potatisen
+	6. Lägg potatisen i kastrullen
+	7. Ta en potatis
+	8. Skala potatisen
+	9. Lägg potatisen i kastrullen
+	
+	
+Skala potatis med en loop:
+
+	1. Ta en potatis
+	2. Skala potatisen
+	3. Lägg potatisen i kastrullen
+	4. Hoppa till steg 1
+
+
+Skala potatis tills kastrullen är full:
+	
+	1. Kolla om kastrullen är full
+	2. Om kastrullen var full i steg 1, hoppa till steg 7
+	3. Ta en potatis
+	4. Skala potatisen
+	5. Lägg potatisen i kastrullen
+	6. Hoppa till steg 1
+	7. Sluta skala potatis
+	
+Pseudokod för while:
+
+	Upprepa:
+		Om kastrullen är full med potatis:
+			Avbryt potatisskalningen
+		Annars:
+			Ta en potatis
+			Skala potatisen
+			Lägg potatisen i kastrullen
+
+	while True:
+		if kastull_full == True:
+			break
+		else:
+			take_potato()
+			peel_potato()
+			put_potato_in_pot()
+			
+Upprepa så länge kastrullen inte är full:
+	Ta en potatis
+	Skala potatisen
+	Lägg potatisen i kastrullen
+
+	while kastull_full == False:
+		take_potato()
+		peel_potato()
+		put_potato_in_pot()
+
+
+Pseudokod för for-loop:
+
+	För varje potatis i säcken:
+		Ta den potatisen
+		Skala den potatisen
+		Lägg den potatisen i kastrullen
+	
+	for potato in potatoes:
+		take_potato()
+		peel_potato()
+		put_potato_in_pot()
+
+Alternativ till ovanstående:
+
+	För varje potatis i säcken, kalla den x:
+		Ta x
+		Skala x
+		Lägg x i kastrullen
+	
+	for x in sack:
+		take_potato(x)
+		peel_potato(x)
+		put_potato_in_pot(x)

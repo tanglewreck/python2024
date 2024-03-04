@@ -1161,7 +1161,7 @@ local/
 *.msg
 *.pages
 *.rtf
-*.txt
+# *.txt
 *.wpd
 *.wps
 
